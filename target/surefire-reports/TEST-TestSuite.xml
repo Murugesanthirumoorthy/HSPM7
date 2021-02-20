@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="2" name="TestSuite" time="60.157" errors="0" skipped="0">
+  <properties>
+    <property name="JOB_NAME" value="HMS"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/HMS/2/display/redirect?page=tests"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\LENOVO\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="07b8ea2d9bc8d2cc"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="TEMP" value="C:\Users\LENOVO\AppData\Local\Temp"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="11.0.9+7-LTS"/>
+    <property name="user.name" value="LENOVO"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="HMS"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/HMS/2/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="OneDrive" value="C:\Users\LENOVO\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="LOCALAPPDATA" value="C:\Users\LENOVO\AppData\Local"/>
+    <property name="java.version" value="11.0.9"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERNAME" value="LENOVO"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="MOZ_PLUGIN_PATH" value="C:\Program Files (x86)\Foxit Software\Foxit Reader\plugins\"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="OneDriveConsumer" value="C:\Users\LENOVO\OneDrive"/>
+    <property name="BUILD_ID" value="2"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="maven.conf" value="C:\Users\LENOVO\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\conf"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.9"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/HMS/2/display/redirect"/>
+    <property name="TMP" value="C:\Users\LENOVO\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/HMS/2/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="11.0.9+7-LTS"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/HMS/display/redirect"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-GI1VVGA"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-15.0.2"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\LENOVO"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="GOOGLE_API_KEY" value="no"/>
+    <property name="COMPUTERNAME" value="DESKTOP-GI1VVGA"/>
+    <property name="user.script" value=""/>
+    <property name="GOOGLE_DEFAULT_CLIENT_SECRET" value="no"/>
+    <property name="user.home" value="C:\Users\LENOVO"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-HMS-2"/>
+    <property name="JENKINS_SERVER_COOKIE" value="07b8ea2d9bc8d2cc"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\LENOVO"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\LENOVO\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\LENOVO\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\LENOVO\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="java.class.path" value="C:\Users\LENOVO\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\LENOVO\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\boot\plexus-classworlds-2.6.0.jar;C:\Users\LENOVO\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\LENOVO\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven C:\Users\LENOVO\.jenkins\war\WEB-INF\lib\remoting-4.6.jar C:\Users\LENOVO\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\LENOVO\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 52209"/>
+    <property name="Path" value="C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 9, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="M2_HOME" value="C:\Users\LENOVO\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="=D:" value="D:\jenkins"/>
+    <property name="java.io.tmpdir" value="C:\Users\LENOVO\AppData\Local\Temp\"/>
+    <property name="HUDSON_HOME" value="C:\Users\LENOVO\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\LENOVO\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/HMS/2/"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.dir" value="D:\Software\Selenium pgms\HSPM7"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/HMS/"/>
+    <property name="LOGONSERVER" value="\\DESKTOP-GI1VVGA"/>
+    <property name="GOOGLE_DEFAULT_CLIENT_ID" value="no"/>
+    <property name="USERDOMAIN" value="DESKTOP-GI1VVGA"/>
+    <property name="MAVEN_HOME" value="C:\Users\LENOVO\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="2"/>
+    <property name="PROCESSOR_REVISION" value="8e09"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="=C:" value="C:\Users"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\LENOVO\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\LENOVO\.jenkins\workspace\HMS@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\LENOVO\.jenkins\workspace\HMS"/>
+    <property name="maven3.interceptor.common" value="C:\Users\LENOVO\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="PSModulePath" value="C:\Program Files (x86)\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\AutoIt3\AutoItX"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="java.vendor.version" value="18.9"/>
+  </properties>
+  <testcase classname="HSPM.Admin.Testcase.FrontofficeTest" name="frontofficebutton" time="50.832">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Visitor Book&quot;}
+  (Session info: chrome=88.0.4324.182)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GI1VVGA&apos;, ip: &apos;192.168.1.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3d8b1e050434c8558228dfc3f5f869e1
+*** Element info: {Using=link text, value=Visitor Book}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Visitor Book&quot;}
+  (Session info: chrome=88.0.4324.182)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GI1VVGA&apos;, ip: &apos;192.168.1.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3d8b1e050434c8558228dfc3f5f869e1
+*** Element info: {Using=link text, value=Visitor Book}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at HSPM.Page.FrontOfficepage.VisitorBook(FrontOfficepage.java:18)
+	at HSPM.Admin.Testcase.FrontofficeTest.frontofficebutton(FrontofficeTest.java:30)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@27a5f880
+Trying to find Element By : By.cssSelector: input#email
+Found Element By : By.cssSelector: input#email
+Trying to find Element By : By.cssSelector: input#password
+Found Element By : By.cssSelector: input#password
+Trying to find Element By : By.className: btn
+Found Element By : By.className: btn
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3d8b1e050434c8558228dfc3f5f869e1)] -&gt; class name: btn]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3d8b1e050434c8558228dfc3f5f869e1)] -&gt; class name: btn]
+Trying to find Element By : By.linkText: Visitor Book
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Visitor Book&quot;}
+  (Session info: chrome=88.0.4324.182)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GI1VVGA&apos;, ip: &apos;192.168.1.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3d8b1e050434c8558228dfc3f5f869e1
+*** Element info: {Using=link text, value=Visitor Book}
+</system-out>
+    <system-err>Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 24170
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1613641913.765][WARNING]: This version of ChromeDriver has not been tested with Chrome version 88.
+Feb 18, 2021 3:21:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.io.FileNotFoundException: D:\Software\Selenium pgms\HSPM7.\Screenshot\1613641992815.png (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at HSPM.Util.commonutil.takescreenshot(commonutil.java:42)
+	at HSPM.Util.WebEventListener.onException(WebEventListener.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at com.sun.proxy.$Proxy5.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at HSPM.Page.FrontOfficepage.VisitorBook(FrontOfficepage.java:18)
+	at HSPM.Admin.Testcase.FrontofficeTest.frontofficebutton(FrontofficeTest.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</system-err>
+  </testcase>
+  <testcase classname="HSPM.Admin.Testcase.homepageTest" name="FrontofficeButton" time="5.535"/>
+  <testcase classname="HSPM.Admin.Testcase.visitorTest" name="VBbutton" time="3.79">
+    <failure message="invalid argument
+  (Session info: chrome=88.0.4324.182)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GI1VVGA&apos;, ip: &apos;192.168.1.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52287}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d5d03fd4dc232b497d0f145e02d052de" type="org.openqa.selenium.InvalidArgumentException">org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=88.0.4324.182)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GI1VVGA&apos;, ip: &apos;192.168.1.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52287}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d5d03fd4dc232b497d0f145e02d052de
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at HSPM.Page.visitorpage.visitioraddButton(visitorpage.java:42)
+	at HSPM.Admin.Testcase.visitorTest.VBbutton(visitorTest.java:36)
+</failure>
+    <system-out>Trying to find Element By : By.cssSelector: input#email
+Found Element By : By.cssSelector: input#email
+Trying to find Element By : By.cssSelector: input#password
+Found Element By : By.cssSelector: input#password
+Trying to find Element By : By.className: btn
+Found Element By : By.className: btn
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; class name: btn]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; class name: btn]
+Trying to find Element By : By.cssSelector: ul.sidebar-menu.verttop &gt; li:nth-child(1) &gt; a
+Found Element By : By.cssSelector: ul.sidebar-menu.verttop &gt; li:nth-child(1) &gt; a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; css selector: ul.sidebar-menu.verttop &gt; li:nth-child(1) &gt; a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; css selector: ul.sidebar-menu.verttop &gt; li:nth-child(1) &gt; a]
+Trying to find Element By : By.linkText: Visitor Book
+Found Element By : By.linkText: Visitor Book
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; link text: Visitor Book]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; link text: Visitor Book]
+Trying to find Element By : By.linkText: Add Visitor
+Found Element By : By.linkText: Add Visitor
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; link text: Add Visitor]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; link text: Add Visitor]
+Trying to find Element By : By.cssSelector: #formadd &gt; div.box-body &gt; div:nth-child(1) &gt; div:nth-child(1) &gt; div &gt; select
+Found Element By : By.cssSelector: #formadd &gt; div.box-body &gt; div:nth-child(1) &gt; div:nth-child(1) &gt; div &gt; select
+Trying to find Element By : By.cssSelector: #formadd &gt; div.box-body &gt; div:nth-child(1) &gt; div:nth-child(1) &gt; div &gt; select
+Found Element By : By.cssSelector: #formadd &gt; div.box-body &gt; div:nth-child(1) &gt; div:nth-child(1) &gt; div &gt; select
+Trying to find Element By : By.cssSelector: #formadd &gt; div.box-body &gt; div:nth-child(1) &gt; div:nth-child(1) &gt; div &gt; select
+Found Element By : By.cssSelector: #formadd &gt; div.box-body &gt; div:nth-child(1) &gt; div:nth-child(1) &gt; div &gt; select
+Trying to find Element By : By.xpath: .//option[@value = &quot;investigate&quot;]
+Found Element By : By.xpath: .//option[@value = &quot;investigate&quot;]
+Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; css selector: #formadd &gt; div.box-body &gt; div:nth-child(1) &gt; div:nth-child(1) &gt; div &gt; select]] -&gt; xpath: .//option[@value = &quot;investigate&quot;]]
+Clicked on: [[[[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; css selector: #formadd &gt; div.box-body &gt; div:nth-child(1) &gt; div:nth-child(1) &gt; div &gt; select]] -&gt; xpath: .//option[@value = &quot;investigate&quot;]]
+Trying to find Element By : By.id: description
+Found Element By : By.id: description
+Trying to find Element By : By.xpath: //*[@id=&quot;formadd&quot;]/div[1]/div[1]/div[2]/div/input
+Found Element By : By.xpath: //*[@id=&quot;formadd&quot;]/div[1]/div[1]/div[2]/div/input
+Trying to find Element By : By.xpath: //*[@id=&quot;formadd&quot;]/div[1]/div[2]/div[1]/div/input
+Found Element By : By.xpath: //*[@id=&quot;formadd&quot;]/div[1]/div[2]/div[1]/div/input
+Trying to find Element By : By.xpath: //*[@id=&quot;formadd&quot;]/div[1]/div[2]/div[2]/div/input
+Found Element By : By.xpath: //*[@id=&quot;formadd&quot;]/div[1]/div[2]/div[2]/div/input
+Trying to find Element By : By.xpath: //*[@id=&quot;formadd&quot;]/div[1]/div[3]/div[1]/div/input
+Found Element By : By.xpath: //*[@id=&quot;formadd&quot;]/div[1]/div[3]/div[1]/div/input
+Trying to find Element By : By.id: date
+Found Element By : By.id: date
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; id: date]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; id: date]
+Trying to find Element By : By.className: datepicker-switch
+Found Element By : By.className: datepicker-switch
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; class name: datepicker-switch]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; class name: datepicker-switch]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: span.month
+Found Element By : By.cssSelector: span.month
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; css selector: span.month]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; css selector: span.month]
+Trying to find Element By : By.cssSelector: div.datepicker-days
+Found Element By : By.cssSelector: div.datepicker-days
+Trying to find Element By : By.cssSelector: td.day
+Found Element By : By.cssSelector: td.day
+Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; css selector: div.datepicker-days]] -&gt; css selector: td.day]
+Clicked on: [[[[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; css selector: div.datepicker-days]] -&gt; css selector: td.day]
+Trying to find Element By : By.cssSelector: #formadd &gt; div.box-body &gt; div:nth-child(6) &gt; div &gt; div &gt; input
+Found Element By : By.cssSelector: #formadd &gt; div.box-body &gt; div:nth-child(6) &gt; div &gt; div &gt; input
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5d03fd4dc232b497d0f145e02d052de)] -&gt; css selector: #formadd &gt; div.box-body &gt; div:nth-child(6) &gt; div &gt; div &gt; input]
+Exception occured: org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=88.0.4324.182)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GI1VVGA&apos;, ip: &apos;192.168.1.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52287}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d5d03fd4dc232b497d0f145e02d052de
+</system-out>
+    <system-err>Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 6282
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1613642034.345][WARNING]: This version of ChromeDriver has not been tested with Chrome version 88.
+Feb 18, 2021 3:23:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.io.FileNotFoundException: D:\Software\Selenium pgms\HSPM7.\Screenshot\1613642076838.png (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at HSPM.Util.commonutil.takescreenshot(commonutil.java:42)
+	at HSPM.Util.WebEventListener.onException(WebEventListener.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at com.sun.proxy.$Proxy5.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:406)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at HSPM.Page.visitorpage.visitioraddButton(visitorpage.java:42)
+	at HSPM.Admin.Testcase.visitorTest.VBbutton(visitorTest.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</system-err>
+  </testcase>
+</testsuite>
